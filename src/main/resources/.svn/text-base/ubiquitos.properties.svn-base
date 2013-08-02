@@ -1,0 +1,53 @@
+ubiquitos.connectionManager=br.unb.unbiquitous.ubiquitos.network.ethernet.connectionManager.EthernetTCPConnectionManager
+ubiquitos.eth.tcp.port=54984
+ubiquitos.eth.tcp.passivePortRange=14999-15000
+
+ubiquitos.driver.deploylist=br.unb.unbiquitous.ubiquitos.uosdriver.UserDriver(My_user_driver);
+
+ubiquitos.uos.deviceName=TestDevice
+
+ubiquitos.application.deploylist=br.unb.unbiquitous.ubiquitos.uosdriver.UserConsole
+ubiquitos.security.authenticationHandlerList=br.unb.unbiquitous.ubiquitos.uos.security.basic.BasicSecurityHandler
+
+# PARAMETER: ubiquitos.security.translationHandlerLis
+#
+#		Defines the TranslationHandlers for the SecurtyTypes supported by the middleware and its services
+#		The list must be separated by commas (',')
+#
+#		Ex:
+#		  ubiquitos.security.authenticationHandlerList=br.unb.unbiquitous.ubiquitos.uos.security.basic.BasicSecurityHandler,\
+#													   br.unb.unbiquitous.ubiquitos.uos.security.basic.RSATranslationHandler
+ubiquitos.security.translationHandlerList=br.unb.unbiquitous.ubiquitos.uos.security.basic.BasicSecurityHandler
+
+# PARAMETER: ubiquitos.ontology.path
+#	
+#	   Defines the Ontology path, from where context information will be persisted.
+#	   
+#	   Ex: ../src/main/resources/owl/uoscontext.owl
+#                                    
+ubiquitos.ontology.path=src/main/resources/owl/uoscontext.owl
+
+# PARAMETER: ubiquitos.application.path
+#	
+#	   Defines the Applications path, from where the applications will be loaded in the startup of the context.
+#	   
+#	   Ex: applications/
+#                                    
+ubiquitos.application.path=applications/
+
+# PARAMETER: ubiquitos.ontology.path
+#	
+#	   Defines the Ontology path, from where context information will be persisted.
+#	   
+#	   Ex: ../src/main/resources/owl/uoscontext.owl
+#                                    
+ubiquitous.ontology.path=src/main/resources/owl/uoscontext.owl
+
+# PARAMETER: ubiquitos.driver.path
+#	
+#	   Defines the Drivers path, from where the drivers will be loaded in the startup of the context.
+#	   
+#	   Ex: drivers/
+#                                    
+ubiquitos.driver.path=drivers/
+

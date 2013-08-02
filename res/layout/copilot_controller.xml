@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+        android:id="@+id/controller_quit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        style="@style/QuitButtonStyle"
+    />
+    
+	<Button
+    	android:id="@+id/controller_left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        style="@style/LeftButtonStyle">
+	</Button>
+    <Button
+        android:id="@+id/controller_up"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_left"
+        android:layout_above="@id/controller_left"
+        style="@style/UpButtonStyle">
+    </Button>
+    <Button
+        android:id="@+id/controller_right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_up"
+        android:layout_alignTop="@id/controller_left"
+        style="@style/RightButtonStyle" >
+    </Button>
+    <Button
+        android:id="@+id/controller_down"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_left"
+        android:layout_below="@id/controller_left"
+        style="@style/DownButtonStyle">
+    </Button>
+     
+    
+    <Button
+      	android:id="@+id/controller_action1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_right"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        style="@style/CoAction1ButtonStyle" >
+    </Button>
+    <Button
+        android:id="@+id/controller_action2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_action1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        style="@style/CoAction2ButtonStyle" >
+    </Button>
+    
+</RelativeLayout>

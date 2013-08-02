@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+        android:id="@+id/controller_quit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        style="@style/QuitButtonStyle"
+    />
+    
+	<Button
+    	android:id="@+id/controller_left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        style="@style/LeftButtonStyle">
+	</Button>
+    <Button
+        android:id="@+id/controller_up"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_left"
+        android:layout_above="@id/controller_left"
+        style="@style/UpButtonStyle">
+    </Button>
+    <Button
+        android:id="@+id/controller_right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_up"
+        android:layout_alignTop="@id/controller_left"
+        style="@style/RightButtonStyle" >
+    </Button>
+    <Button
+        android:id="@+id/controller_down"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_left"
+        android:layout_below="@id/controller_left"
+        style="@style/DownButtonStyle">
+    </Button>
+     
+    
+    <Button
+      	android:id="@+id/controller_action1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_right"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"
+        style="@style/Action1ButtonStyle" >
+    </Button>
+    <Button
+        android:id="@+id/controller_action2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/controller_action1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        style="@style/Action2ButtonStyle" >
+    </Button>
+    
+    <Button
+        android:id="@+id/controller_plusLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/controller_right"
+        style="@style/PlusLeftButtonStyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp" >
+    </Button>
+    <Button
+        android:id="@+id/controller_plusRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/controller_plusLeft"
+        android:layout_alignTop="@id/controller_plusLeft"
+        style="@style/PlusRightButtonStyle"
+        android:layout_marginLeft="10dp" >
+    </Button>
+    <Button
+        android:id="@+id/controller_plusSelect"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/controller_plusRight"
+        android:layout_alignTop="@id/controller_plusLeft"
+        style="@style/PlusSelectButtonStyle"
+        android:layout_marginLeft="10dp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/controller_plusLeft"
+        android:layout_alignBottom="@+id/controller_plusLeft"
+        android:layout_toLeftOf="@+id/controller_plusLeft"
+        android:text="" />
+
+    <ToggleButton
+        android:id="@+id/enable_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/controller_action1"
+        android:layout_marginLeft="20dp"
+        android:text="" />
+    
+</RelativeLayout>

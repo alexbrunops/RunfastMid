@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="startMiddleware">Middleware executed!</string>
+    <string name="toggleMiddleware">Ligar/Desligar Middleware</string>
+    <string name="app_name">Middleware</string>
+    <string name="runFast">RunFast!</string>
+    <string name="search">Procurar</string>
+    <string name="receivedInvite">Recebido um convite para jogar Run Fast!:</string>
+    <string name="accept">Aceitar Convite</string>
+    <string name="cancel">Cancelar</string>
+    
+    <string name="select_addTeam">Criar novo time!(Como piloto)</string>
+    <string name="select_enterTeam">Entrar num time existente!</string>
+
+    <string name="selectcar_selectCar">Escolha um carro:</string>
+    <string name="selectcar_random">Random!</string>
+    
+    <string name="quitDialog_title">Sair!</string>
+    <string name="quitDialog_message">Tem certeza que deseja sair?</string>
+    <string name="quitDialog_ok">Sim</string>
+    <string name="quitDialog_cancel">Cancelar</string>
+
+</resources>

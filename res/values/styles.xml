@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="QuitButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/quit_button</item>
+	</style>
+	
+    <style name="UpButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/up_button</item>
+	</style>
+	<style name="LeftButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/left_button</item>
+	</style>
+	<style name="RightButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/right_button</item>
+	</style>
+	<style name="DownButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/down_button</item>
+	</style>
+	
+	<style name="Action1ButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/action1_button</item>
+	</style>
+	<style name="Action2ButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/action2_button</item>
+	</style>
+	<style name="CoAction1ButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/co_action1_button</item>
+	</style>
+	<style name="CoAction2ButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/co_action2_button</item>
+	</style>
+	
+	<style name="PlusLeftButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/plusleft_button</item>
+	</style>
+	<style name="PlusRightButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/plusright_button</item>
+	</style>
+	<style name="PlusSelectButtonStyle" parent="@android:style/Widget.CompoundButton">
+   		<item name="android:background">@drawable/plusselect_button</item>
+	</style>
+	
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
